@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dows-parent</artifactId>
+        <groupId>org.dows.framework</groupId>
+        <version>20220701</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.dows.saas</groupId>
+    <artifactId>dows-sms</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>sms-api</module>
+        <!--<module>sms-biz</module>
+        <module>sms-channel</module>
+        <module>sms-client</module>-->
+        <module>sms-crud</module>
+        <!--<module>sms-engine</module>
+        <module>sms-mq</module>
+        <module>sms-receipt</module>
+        <module>sms-rest</module>
+        <module>sms-rpc</module>
+        <module>sms-boot</module>
+        <module>sms-job</module>
+        <module>sms-routing</module>-->
+    </modules>
+
+
+</project>
